@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css?family=Cutive+Mono|Quicksand&display=swap');
+
+body{
+	margin: 0;
+	font-family: 'Quicksand', sans-serif;
+}
+
+div{
+	background-color: #FEF7FF;
+	color: #5d13e7;
+	font-size: 3rem;
+	height: 100vh;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+a{
+	color: #333;
+}
