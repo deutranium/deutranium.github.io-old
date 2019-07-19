@@ -1,11 +1,11 @@
-@import url('https://fonts.googleapis.com/css?family=Cutive+Mono|Quicksand&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Quicksand&display=swap');
 
-body{
+body {
 	margin: 0;
 	font-family: 'Quicksand', sans-serif;
 }
 
-div{
+div {
 	background-color: #FEF7FF;
 	color: #5d13e7;
 	font-size: 3rem;
@@ -16,6 +16,6 @@ div{
 	align-items: center;
 }
 
-a{
+a {
 	color: #333;
 }

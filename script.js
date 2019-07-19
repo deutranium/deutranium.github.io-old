@@ -22,4 +22,5 @@ console.log(`
          -'                                '-
 
             Obviously I haven't made this ;P
+Taken from http://www.ascii-art.de/ascii/pqr/rockets.txt
          `);
