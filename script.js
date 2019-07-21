@@ -43,7 +43,8 @@ const stuff = [
   "It is okay to not copy-paste from Stack Overflow once in a while",
   "It is okay to say syntaxes instead of syntices once in a while",
   "It is okay to write no-nonsense commit messages once in a while",
-  "It is okay to write neat code once in a while"
+  "It is okay to write neat code once in a while",
+  "It is okay to use tabs instead of spaces once in a while"
   ];
 
   let id = Math.ceil(Math.random() * (stuff.length));
