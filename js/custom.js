@@ -86,7 +86,8 @@
 	/*----------------------------------------------------*/
     /*  Simple LightBox js
     /*----------------------------------------------------*/
-    $('.imageGallery1 .light').simpleLightbox();
+    // $('.imageGallery1 .light').simpleLightbox();
+    $('.imageGallery1 .light').colorbox();
     
     /*----------------------------------------------------*/
     /*  Google map js
