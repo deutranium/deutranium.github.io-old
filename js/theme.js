@@ -438,7 +438,7 @@ function generateHtml(title, tech, desc, img, gh = "#", lnk = "#"){
         gh_shiz = `<a href="` + gh + `"><i class="fa fa-github fa-2x"></i></a>`
     }
     if(lnk != "#"){
-        lnk_shiz = `<a href="` + lnk + `"><i class="fa fa-github fa-2x"></i></a>`
+        lnk_shiz = `<a href="` + lnk + `"><i class="fa fa-link fa-2x"></i></a>`
     }
 
     if(lnk_shiz != "" || gh_shiz != ""){
