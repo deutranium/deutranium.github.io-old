@@ -2830,7 +2830,7 @@ h6 {
     .h_gallery_item .g_item_text p {
       margin-bottom: 0px; }
   .h_gallery_item:hover .g_img_item:before {
-    opacity: .35; }
+    opacity: .85; }
   .h_gallery_item:hover .g_img_item .light {
     opacity: 1; }
   .h_gallery_item:hover .g_item_text h4:hover {
