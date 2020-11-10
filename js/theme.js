@@ -108,7 +108,7 @@
 	/*----------------------------------------------------*/
     /*  Simple LightBox js
     /*----------------------------------------------------*/
-    $('.imageGallery1 .light').simpleLightbox();
+    // $('.imageGallery1 .light').simpleLightbox();
 	
 	$('.counter').counterUp({
 		delay: 10,
@@ -417,3 +417,48 @@
 	
 
 })(jQuery)
+
+
+function henlo(txt){
+    Swal.fire({
+            html: txt,
+            showCloseButton: true,
+            showConfirmButton: false
+        }
+    )
+}
+
+function generateHtml(title, tech, desc, img, gh = "#", lnk = "#"){
+    final = ""
+    gh_shiz = ""
+    lnk_shiz = ""
+    social_shiz = ""
+
+    if(gh != "#"){
+        gh_shiz = `<a href="` + gh + `"><i class="fa fa-github fa-2x"></i></a>`
+    }
+    if(lnk != "#"){
+        lnk_shiz = `<a href="` + lnk + `"><i class="fa fa-github fa-2x"></i></a>`
+    }
+
+    if(lnk_shiz != "" || gh_shiz != ""){
+        social_shiz = `<div class="social_icon">
+        ` + gh_shiz + `
+        ` + lnk_shiz + `
+        </div>`;
+    }
+
+    final = `
+            <div class="blog_right_sidebar">
+                <aside class="single_sidebar_widget author_widget">
+                    <img class="author_img rounded-circle popup-img" src="img/gallery/` + img + `.png" alt="">
+                    <h4>` + title + `</h4>
+                    <p>` + tech + `</p>
+                    ` + social_shiz + `
+                    <p>` + desc + `</p>
+                    <div class="br"></div>
+                </aside>
+            </div>`
+
+    henlo(final)
+}
