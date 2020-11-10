@@ -3002,4 +3002,35 @@ h6 {
 ============================================================================================ */
 /*---------------------------------------------------- */
 
+
+/*----------CUSTOMIZATIONS ADDED LATER--------------*/
+
+.g_img_item{
+  cursor: pointer;
+}
+
+.popup-img{
+  border-radius: 1000px;
+  width: 60%;
+  margin-bottom: 50px;
+}
+
+.social_icon{
+  margin-top: 10px;
+}
+
+.popup_desc{
+  color: #999;
+  font-weight: 300;
+}
+
+.swal2-popup{
+  background-color: transparent !important;
+  padding: 0 !important;
+}
+
+.swal2-content{
+  padding: 0 !important;
+}
+
 /*# sourceMappingURL=style.css.map */
