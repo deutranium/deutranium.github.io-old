@@ -1405,7 +1405,7 @@ button:focus {
   .element-wrap {
     margin-top: 30px; } }
 b, sup, sub, u, del {
-  color: #f8b600; }
+  color: #666; }
 
 h1 {
   font-size: 36px; }
@@ -2753,7 +2753,7 @@ h6 {
     .personal_text .personal_social li a {
       line-height: 40px;
       width: 40px;
-      background: #e8e8e8;
+      background: #c5c5c5;
       border-radius: 5px;
       display: inline-block;
       text-align: center;
