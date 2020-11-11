@@ -3136,7 +3136,9 @@ h6 {
 /*----- TIMELINE CONTENT -----*/
 .timeline-content {
   padding-bottom: 40px;
+  display: flex !important;
 }
+
 .timeline-content p:last-child {
   margin-bottom: 0;
 }
@@ -3272,6 +3274,19 @@ h6 {
   .timeline-centered .period .timeline-title {
     left: auto;
   }
+  .timeline-item:nth-child(even) .timeline-content{
+    flex-direction: row-reverse;
+  }
+}
+
+.timeline-img:nth-child(odd){
+  width: 55px;
+  margin-right: 20px;
+}
+
+.timeline-img:nth-child(odd){
+  width: 55px;
+  margin-left: 20px;
 }
 
 /*----------------------------------------------
