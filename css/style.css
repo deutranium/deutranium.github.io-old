@@ -3139,6 +3139,11 @@ h6 {
   display: flex !important;
 }
 
+.timeline-period {
+  padding-bottom: 40px;
+  display: block !important;
+}
+
 .timeline-content p:last-child {
   margin-bottom: 0;
 }
@@ -3168,7 +3173,7 @@ h6 {
   height: 32px;
   top: auto;
 }
-.period .timeline-content {
+.period .timeline-period {
   padding: 40px 0 70px;
 }
 .period .timeline-title {
@@ -3190,7 +3195,9 @@ h6 {
   .timeline-split .timeline-marker,
   .timeline-centered .timeline-marker,
   .timeline-split .timeline-content,
+  .timeline-split .timeline-period,
   .timeline-centered .timeline-content,
+  .timeline-centered .timeline-period,
   .timeline-split .period .timeline-info,
   .timeline-centered .period .timeline-info {
     display: table-cell;
@@ -3199,7 +3206,7 @@ h6 {
   .timeline-split .timeline-marker, .timeline-centered .timeline-marker {
     position: relative;
   }
-  .timeline-split .timeline-content, .timeline-centered .timeline-content {
+  .timeline-split .timeline-content, .timeline-centered .timeline-content, .timeline-split .timeline-period, .timeline-centered .timeline-period {
     padding-left: 30px;
   }
   .timeline-split .timeline-info, .timeline-centered .timeline-info {
@@ -3234,7 +3241,8 @@ h6 {
     margin-left: -7.5px;
   }
   .timeline-centered .timeline-info,
-  .timeline-centered .timeline-content {
+  .timeline-centered .timeline-content,
+  .timeline-centered .timeline-period {
     width: 50%;
   }
   .timeline-centered > .timeline-item:nth-child(odd) .timeline-info {
@@ -3242,7 +3250,8 @@ h6 {
     text-align: right;
     padding-right: 30px;
   }
-  .timeline-centered > .timeline-item:nth-child(odd) .timeline-content {
+  .timeline-centered > .timeline-item:nth-child(odd) .timeline-content,
+  .timeline-centered > .timeline-item:nth-child(odd) .timeline-period, {
     float: right;
     text-align: left;
     padding-left: 30px;
@@ -3252,12 +3261,14 @@ h6 {
     text-align: left;
     padding-left: 30px;
   }
-  .timeline-centered > .timeline-item:nth-child(even) .timeline-content {
+  .timeline-centered > .timeline-item:nth-child(even) .timeline-content,
+  .timeline-centered > .timeline-item:nth-child(even) .timeline-period {
     float: left;
     text-align: right;
     padding-right: 30px;
   }
-  .timeline-centered > .timeline-item.period .timeline-content {
+  .timeline-centered > .timeline-item.period .timeline-content,
+  .timeline-centered > .timeline-item.period .timeline-period {
     float: none;
     padding: 0;
     width: 100%;
@@ -3274,20 +3285,16 @@ h6 {
   .timeline-centered .period .timeline-title {
     left: auto;
   }
-  .timeline-item:nth-child(even) .timeline-content{
+  .timeline-item:nth-of-type(even) .timeline-content{
     flex-direction: row-reverse;
   }
 }
 
 .timeline-img:nth-child(odd){
   width: 55px;
-  margin-right: 20px;
+  margin: 0 20px;
 }
 
-.timeline-img:nth-child(odd){
-  width: 55px;
-  margin-left: 20px;
-}
 
 /*----------------------------------------------
     MOD: MARKER OUTLINE
