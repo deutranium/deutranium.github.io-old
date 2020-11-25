@@ -49,6 +49,7 @@
 })(jQuery)
 
 let project_descriptions = {
+    "turing": `Produced an e-magazine in a team of 10 with articles along with categories, tags, authors etc. and filters for the same.<br><br>The website is planned to host all the projects made by the UG 2k19 batch as a part of Algorithm Analysis and Design course.`,
     "discord": `Developed a discord bot to manage transactions by 20 organizers for 71 participants for a college event <br><br>The bot was created using Discord.py and connected to sqlite for data storage, hosted and used in the event server with options to view the scoreboard, change scores, view history etc.`,
     "dbms": ` Collaborated on a command line applications to be used to perform CRUD operations on a database of a publication company <br><br>The CLI had functionalities like creating new articles and issues, change their details like author, editor, retrieve results after applying filters, analyze the change in subscribers, check sponsor and contributer details etc.`,
     "ubuntu": `Created a desktop app for WhatsApp to be used in linux distros using the chromium command line application and ubuntu .desktop configurations`,
