@@ -72,7 +72,7 @@ function henlo(txt, img){
     )
 }
 
-function generateHtml(title, tech, desc, img, gh = "#", lnk = "#"){
+function generateHtml(title, tech, img, gh = "#", lnk = "#"){
     let final = ""
     let gh_shiz = ""
     let lnk_shiz = ""
